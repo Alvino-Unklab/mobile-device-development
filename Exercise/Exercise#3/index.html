@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 3</title>
+    <style>
+      .button {
+        background: #2b2b2b;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-family: sans-serif;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Kelompok Berlin :</h3>
+    <ol>
+      <li>
+        <p>Korompis, Rangga</p>
+      </li>
+      <li>
+        <p>Masengi, Julio</p>
+      </li>
+      <li>
+        <p>Radix</p>
+      </li>
+      <li>
+        <p>Tular, Alvino</p>
+      </li>
+      <li>
+        <p>Sakul, Esra</p>
+      </li>
+    </ol>
+    <div class="nmr1">
+      <h2>1#</h2>
+      <p>Masukan suhu :</p>
+      <input type="text" name="suhu" id="suhu" />
+      <span id="cekSuhu" class="button">Submit</span>
+      <p>Hasil : <span id="hasilSuhu"></span></p>
+    </div>
+    <div class="nmr2">
+      <h2>2#</h2>
+      <p>Masukan tinggi badan :</p>
+      <input type="number" name="tinggi" id="tinggi" />
+      <p>Masukan berat badan :</p>
+      <input type="number" name="berat" id="berat" />
+      <br /><br /><span id="cekBmi" class="button">Submit</span>
+      <p>Berat badan ideal anda adalah : <span id="bmi"></span></p>
+      <p>kategori : <span id="kategori"></span></p>
+    </div>
+    <script src="import.js" type="module"></script>
+  </body>
+</html>
